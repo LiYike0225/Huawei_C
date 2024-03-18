@@ -16,3 +16,5 @@
 
 技术一面估计是挂了 好尴尬 hr问什么我都不知道
 以后说什么都要睡一觉再面试
+
+so strange that i paid no effort sohow i pass...
