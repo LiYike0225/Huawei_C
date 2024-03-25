@@ -1,0 +1,25 @@
+# 均衡串定义：字符串中只包含两种字符，且这两种字符的个数相同。
+# 给定一个均衡字符串，请给出可分割成新的均衡子串的最大个数。
+# 约定：字符串中只包含大写的 X 和 Y 两种字符。
+
+str = input()
+
+def getResult():
+    count_X = 0
+    count_Y = 0
+    count = 0
+
+    for i in str:
+        if i == "X":
+            count_X += 1
+        elif i == "Y":
+            count_Y +=1
+
+        if count_X == count_Y:
+            count += 1
+            count_X = 0
+            count_Y = 0
+
+    return count
+
+print(getResult())
